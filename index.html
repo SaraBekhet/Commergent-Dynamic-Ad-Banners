@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Commergent Ad Banners
+    </title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            gap: 50px;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .banner-box {
+            width: 300px;
+            height: 250px;
+            background: linear-gradient(135deg, #2c3e50, #4ca1af);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            border: 1px solid #333;
+        }
+        .banner-box .logo {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+        .banner-box h1 {
+            font-size: 32px;
+            margin: 0;
+            line-height: 1;
+            color: #ffeb3b;
+        }
+        .banner-box p {
+            font-size: 14px;
+            margin: 10px 0 20px;
+        }
+        .btn {
+            background-color: #ff5722;
+            color: white;
+            text-decoration: none;
+            padding: 10px 25px;
+            font-weight: bold;
+            border-radius: 50px;
+            font-size: 14px;
+            transition: transform 0.2s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+        .btn:hover {
+            transform: scale(1.05);
+            background-color: #f4511e;
+        }
+        .banner-wide {
+            width: 728px;
+            height: 90px;
+            background: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 30px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .banner-wide .content {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .banner-wide .logo {
+            color: #2c3e50;
+            font-weight: bold;
+            font-size: 20px;
+            border-right: 2px solid #eee;
+            padding-right: 20px;
+        }
+        .banner-wide h3 {
+            margin: 0;
+            color: #d32f2f;
+            font-size: 24px;
+        }
+        .banner-wide span {
+            color: #555;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>
+            Option 1: Medium Rectangle (300x250)
+        </h2>
+        <div class="banner-box">
+            <div class="logo">
+                COMMERGENT
+            </div>
+            <h1>
+                HUGE SALE
+            </h1>
+            <p>
+                Up to 50% Off Everything
+            </p>
+            <a href="#" class="btn">
+                Shop Now
+            </a>
+        </div>
+    </div>
+    <div>
+        <h2>
+            Option 2: Leaderboard (728x90)
+        </h2>
+        <div class="banner-wide">
+            <div class="content">
+                <div class="logo">
+                    COMMERGENT
+                </div>
+                <div>
+                    <h3>
+                        FLASH SALE IS ON!
+                    </h3>
+                    <span>
+                        Get the best deals on electronics today.
+                    </span>
+                </div>
+            </div>
+            <a href="#" class="btn">
+                Shop Now
+            </a>
+        </div>
+    </div>
+</body>
+</html>
